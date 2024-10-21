@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  margin-top: 30px;
+  background-color: rgb(98, 94, 89);
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 30% 70% 25% 75% / 41% 19% 81% 59%  ;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: white;
+}
+
+input {
+  padding: 10px;
+  width: 70%;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 50px;
+  color: rgb(255, 255, 255);
+  font-size: x-large;
+  background-color: red;
+}
+
+.weather-info {
+  margin-top: 20px;
+}
+
+#weatherIcon {
+  margin-top: 20px;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 40px;
+}
+
+#errorMessage {
+  margin-top: 20px;
+}
+
+/* style.css */
+input[list] {
+  padding: 10px;
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+datalist option {
+  font-size: 16px;
+}
